@@ -1,0 +1,57 @@
+/* Write your CSS here */
+.amount-side-heading {
+  color: #145263;
+  font-size: 20px;
+}
+.amount {
+  font-size: 20px;
+  color: black;
+  font-weight: bold;
+}
+.cartList-length {
+  font-size: 17px;
+  color: #145263;
+  margin-top: 0px;
+  font-weight: 500;
+}
+.checkout-button {
+  border-radius: 3px;
+  outline: none;
+  border: none;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  width: 100%;
+  color: #ffffff;
+  background-color: #6e36f1;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.summary-container {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 100px;
+}
+.amount-section {
+  display: flex;
+  flex-direction: column;
+  align-self: flex-end;
+}
+
+@media screen and (min-width: 768px) {
+  .amount-side-heading {
+    font-size: 28px;
+  }
+  .amount {
+    font-size: 28px;
+  }
+  .cartList-length {
+    font-size: 24px;
+  }
+  .checkout-button {
+    width: 300px;
+    align-self: flex-end;
+  }
+}
